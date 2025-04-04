@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage> {
             padding: const EdgeInsets.only(right: 50.0),
             child: TextButton(
               onPressed: () async {
-                final url = Uri.parse("https://www.github.com/unim26/");
+                final url = Uri.parse("https://github.com/unim26/drinkdive");
                 if (await canLaunchUrl(url)) {
                   await launchUrl(url);
                 } else {
